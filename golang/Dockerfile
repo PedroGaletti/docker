@@ -13,6 +13,3 @@ COPY .env /app
 EXPOSE 8080
 
 ENTRYPOINT [ "./docker-golang" ]
-
-# docker build . -t my-server
-# docker run -p 8080:8080 my-server
